@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الإجازات المرضية</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><header class="navbar">
+  <nav>
+    <ul>
+      <li><a href="#">الرئيسية</a></li>
+      <li><a href="#">الخدمات</a></li>
+      <li><a href="#">الأسئلة الشائعة</a></li>
+      <li><a href="#">الاستعلامات</a></li>
+      <li><a href="#">تواصل معنا</a></li>
+    </ul>
+  </nav>
+</header><div class="logo">
+  <img src="images/sehaty-logo.png" alt="شعار صحتي">
+</div>
+  <div class="container">
+    <h1>الإجازات المرضية</h1>
+    <p class="description">
+      خدمة الاستعلام عن الإجازات المرضية تتيح لك الاستعلام عن حالة طلب الإجازة ومحتوياتها عن طريق إدخال رقم الخدمة ورقم الهوية / الإقامة.
+    </p>
+    <form id="leaveForm">
+      <label for="serviceCode">رقم الخدمة</label>
+      <input type="text" id="serviceCode" name="serviceCode" required>
+
+      <label for="idNumber">رقم الهوية / الإقامة</label>
+      <input type="text" id="idNumber" name="idNumber" required>
+
+      <div class="buttons">
+        <button type="submit">استعلام</button>
+        <button type="reset">مسح البيانات</button>
+      </div>
+    </form><div id="result"></div>
+  </div>
+  <script src="JavaScript/index.js"></script>
+  <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+  <img src="images/seha-logo (1).png" alt="شعار صحتي">
+  </div>
+  <div class="footer-description">
+    منصة صحة تخدم جميع المنشآت الطبية من خلال تقديم الخدمات الصحية إلكترونياً لجميع المنشآت الطبية وتسعى إلى توحيد وأتمتة الإجراءات والخدمات بما في دوره رفع جودة الأداء وخفض التكاليف.
+  </div>
+</div>
+</div>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>الخدمات</h4>
+        <ul>
+          <li><a href="#">الإجازات المرضية</a></li>
+          <li><a href="#">نتائج الفحوصات</a></li>
+          <li><a href="#">المواعيد</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>عن المنصة</h4>
+        <ul>
+          <li><a href="#">من نحن</a></li>
+          <li><a href="#">سياسة الخصوصية</a></li>
+          <li><a href="#">الشروط والأحكام</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>تواصل معنا</h4>
+        <ul>
+          <li>📞 920000085</li>
+          <li>📧 support@seha.sa</li>
+          <li>🐦 @seha_ksa</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
