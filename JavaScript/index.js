@@ -13,9 +13,9 @@ document.getElementById('leaveForm').addEventListener('submit', function(e) {
       <table class="result-table">
         <tr><th>الاسم</th><td>حمود عيسى عبدالله الحربي</td></tr>
         <tr><th>رقم الهوية</th><td>1117471217</td></tr>
-        <tr><th>تاريخ إصدار تقرير الإجازة</th><td>2026-4-1</td></tr>
-        <tr><th>تاريخ بداية الإجازة</th><td>2026-4-1</td></tr>
-        <tr><th>تاريخ نهاية الإجازة</th><td>2026-4-1</td></tr>
+        <tr><th>تاريخ إصدار تقرير الإجازة</th><td>2026-01-04</td></tr>
+        <tr><th>تاريخ بداية الإجازة</th><td>2026-01-04</td></tr>
+        <tr><th>تاريخ نهاية الإجازة</th><td>2026-01-04</td></tr>
         <tr><th>مدة الإجازة</th><td>يوم واحد</td></tr>
         <tr><th>اسم المنشأة</th><td>مركز طويق الغربي</td></tr>
       </table>
@@ -36,4 +36,5 @@ document.getElementById('leaveForm').addEventListener('submit', function(e) {
     alert('رقم الخدمة أو رقم الهوية غير صحيح');
   }
 });
+
 
